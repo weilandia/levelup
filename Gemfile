@@ -11,6 +11,7 @@ gem 'unicorn'
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'pry-rails'
+  gem 'fabrication'
 end
 
 group :development do
