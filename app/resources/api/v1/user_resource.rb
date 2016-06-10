@@ -1,6 +1,6 @@
 module Api
   module V1
-    class UserResource < JSONAPI::Resource
+    class UserResource < BaseResource
       attributes :email
     end
   end

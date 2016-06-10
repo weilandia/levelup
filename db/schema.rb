@@ -11,53 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160609215321) do
+ActiveRecord::Schema.define(version: 20160610191017) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "hstore"
 
-  create_table "services", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "tracks", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "service_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  add_index "tracks", ["service_id"], name: "index_tracks_on_service_id", using: :btree
-
-  create_table "user_services", force: :cascade do |t|
+  create_table "authorizations", force: :cascade do |t|
+    t.string   "provider"
+    t.string   "uid"
     t.integer  "user_id"
-    t.integer  "service_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.hstore   "service_data"
-  end
-
-  add_index "user_services", ["service_data"], name: "index_user_services_on_service_data", using: :gin
-  add_index "user_services", ["service_id"], name: "index_user_services_on_service_id", using: :btree
-  add_index "user_services", ["user_id"], name: "index_user_services_on_user_id", using: :btree
-
-  create_table "user_tracks", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "track_id"
+    t.string   "token"
+    t.string   "secret"
+    t.string   "username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  add_index "user_tracks", ["track_id"], name: "index_user_tracks_on_track_id", using: :btree
-  add_index "user_tracks", ["user_id"], name: "index_user_tracks_on_user_id", using: :btree
+  add_index "authorizations", ["user_id"], name: "index_authorizations_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
-    t.string   "auth_token",             default: ""
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -68,15 +42,11 @@ ActiveRecord::Schema.define(version: 20160609215321) do
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
+    t.string   "username"
   end
 
-  add_index "users", ["auth_token"], name: "index_users_on_auth_token", unique: true, using: :btree
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
-  add_foreign_key "tracks", "services"
-  add_foreign_key "user_services", "services"
-  add_foreign_key "user_services", "users"
-  add_foreign_key "user_tracks", "tracks"
-  add_foreign_key "user_tracks", "users"
+  add_foreign_key "authorizations", "users"
 end
