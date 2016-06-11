@@ -3,8 +3,7 @@
     <p class="landing-sub-header">
       level up
     </p>
-    <%= link_to 'signin with facebook', user_facebook_omniauth_authorize_path, class: "btn fade-in btn-signin", id:"signin" %>
-    <%= link_to 'signin with github', user_github_omniauth_authorize_path, class: "btn fade-in btn-signin", id:"signin" %>
-    <%= link_to 'signin with google', user_google_oauth2_omniauth_authorize_path, class: "btn fade-in btn-signin", id:"signin" %>
+    <%= link_to 'signin with facebook', facebook_login_path, class: "btn fade-in btn-signin", id:"signin" %>
+    <%= link_to 'signin with github', github_login_path, class: "btn fade-in btn-signin", id:"signin" %>
   </div>
 </header>
