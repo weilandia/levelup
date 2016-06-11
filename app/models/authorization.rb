@@ -7,9 +7,12 @@ class Authorization < ActiveRecord::Base
   end
 
   def fetch_details_from_facebook
-    graph = Koala::Facebook::API.new(self.token)
-    facebook_data = graph.get_object("me")
-    self.username = facebook_data['username']
-    self.save
+    FacebookService.new(self).fetch_data
+  end
+
+  def fetch_details_from_github
+  end
+
+  def fetch_details_from_google_oauth2
   end
 end

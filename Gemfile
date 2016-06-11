@@ -17,6 +17,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-oauth2'
 gem 'omniauth-facebook'
+gem 'faraday'
 gem "koala", "~> 2.2"
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
