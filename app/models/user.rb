@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
        user = User.new
        user.email = auth.info.email
        user.name = auth.info.name
+       user.image_url = auth.info.image
        user.save
       end
       authorization.username = auth.info.nickname

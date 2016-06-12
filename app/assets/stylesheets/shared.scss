@@ -1,0 +1,62 @@
+@import "colors";
+@import "font-stack";
+
+*{
+  font-family:$font-stack;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: $off-white;
+}
+
+.app-theme {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.03),
+      rgba(0, 0, 0, 0.03)
+    );
+}
+
+.float-right {
+  float: right;
+}
+
+.alert_info {
+  margin-top: -6px;
+  margin-bottom: 0;
+  border-radius: 0;
+  text-align: center;
+  color: white;
+  background-color: $purgatory-blue;
+}
+.light {
+  font-weight: 300;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.app-theme {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
