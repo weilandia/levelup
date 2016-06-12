@@ -7,17 +7,6 @@ class User < ActiveRecord::Base
     roles.exists?(name:"admin")
   end
 
-  def self.new_with_session(params, session)
-    if session["devise.user_attributes"]
-      new(session["devise.user_attributes"],without_protection: true) do |user|
-        user.attributes = params
-        user.valid?
-      end
-    else
-      super
-    end
-  end
-
   def self.from_omniauth(auth, current_user)
     authorization = Authorization.where(provider: auth.provider, uid: auth.uid.to_s, token: auth.credentials.token).first_or_initialize
 
