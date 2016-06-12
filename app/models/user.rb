@@ -3,6 +3,9 @@ class User < ActiveRecord::Base
   has_many :user_roles
   has_many :roles, through: :user_roles
 
+  validates :email, presence: true, uniqueness: true
+  validates :name, presence: true
+
   def admin?
     roles.exists?(name:"admin")
   end
@@ -16,9 +19,9 @@ class User < ActiveRecord::Base
        user = User.new
        user.email = auth.info.email
        user.name = auth.info.name
+       user.image_url = auth.info.image
        user.save
       end
-      authorization.username = auth.info.nickname
       authorization.user_id = user.id
       authorization.save
     end

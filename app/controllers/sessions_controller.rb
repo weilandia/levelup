@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
       flash[:notice] = "Welcome."
       session[:user_id] = user.id
     end
-    redirect_to user_path(current_user.username)
+    redirect_to user_path(current_user)
   end
 
   def destroy

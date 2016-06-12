@@ -1,3 +1,39 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.landing-header-div {
+  height: 300px;
+  background-color: $purgatory-dark-blue;
+  .landing-copy {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $off-white;
+    h1 {
+      margin: 0;
+      font-size: 5rem;
+      white-space: nowrap;
+    }
+    p {
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+    .btn-signin {
+      margin-top: 0;
+      font-weight: 300;
+      background-color: $button;
+      :hover {
+        background-color: $button;
+      }
+      :focus {
+        outline-width: 0;
+      }
+    }
+    @media(min-width: 550px) {
+      h1 {
+        font-size: 8rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "colors";
+@import "font-stack";
+
+.navbar{
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.0);
+  margin: 5px;
+
+  .nav-container {
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+  .nav-icon {
+    margin-top: 25px;
+  }
+
+  .avatar {
+    border-radius: 3px;
+    height: 30px;
+    width: auto;
+    margin-top: -5px;
+  }
+
+  .navbar-header {
+    padding-top: 25px;
+    font-size: 18px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .nav-logo-first {
+      font-weight: 400;
+    }
+    .nav-logo-second {
+      font-weight: 300;
+    }
+    .logo-img {
+      margin-left: 12px;
+      padding-bottom: 10px;
+      height:30px;
+      width:auto;
+    }
+  }
+}
+
+.dropdown-menu {
+  margin-right: -15px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+ background-color: white;
+}
+
+ul.nav li:hover > ul.dropdown-menu {
+  display: block;
+  text-align: right;
+}
+
+
+@media (max-width: 425px) {
+  .co-name {
+    display:none;
+  }
+}

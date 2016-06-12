@@ -1,5 +1,3 @@
-require 'api_constraints'
-
 Rails.application.routes.draw do
   root 'pages#landing'
   get '/auth/github', as: :github_login
@@ -9,9 +7,9 @@ Rails.application.routes.draw do
 
   resource :users, as: :user, only: [:show]
 
-  namespace :api, defaults: { format: :json }, path: '/' do
-    scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
-      jsonapi_resources :users
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      jsonapi_resources :users, only: [:show]
     end
   end
 end
