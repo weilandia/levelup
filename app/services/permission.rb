@@ -44,5 +44,6 @@ class Permission
     def guest_permissions
       return true if controller == 'sessions' && action.in?(%w(create))
       return true if controller == 'pages' && action.in?(%w(landing))
+      return true if controller == 'api/v1/users'
     end
 end

@@ -1,14 +1,12 @@
 module Omniauth
-  def stub_github_omniauth
-  OmniAuth.config.test_mode = true
-  OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({
-    provider: 'github',
-    uid: "1",
-    info: { name: "Nick",
-            nickname: "weilandia"},
-    credentials: { token: ENV['GITHUB_USER_TOKEN']},
-    extra: { raw_info: {
-          avatar_url: "https://avatars3.githubusercontent.com/u/13652979?v=3&u=4b2548366e2f82029320102fd434d968efde206b&s=140"}}})
+  def stub_omniauth(provider)
+    OmniAuth.config.test_mode = true
+    OmniAuth.config.mock_auth[provider.to_sym] = OmniAuth::AuthHash.new({
+      provider: provider.downcase,
+      uid: ENV["TEST_UID"],
+      info: { name: ENV["TEST_USER_NAME"], email: ENV["TEST_USER_EMAIL"] },
+      credentials: { token: ENV["FACEBOOK_TEST_USER_TOKEN"]}
+    })
   end
 end
 
