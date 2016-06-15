@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/controllers/api/v1/users_controller_spec.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/controllers/api/v1/users_controller_spec.rb": [
         1,
         null,
         1,
@@ -15,7 +15,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/rails_helper.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/rails_helper.rb": [
         1,
         1,
         null,
@@ -35,12 +35,12 @@
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/environment.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/environment.rb": [
         1,
         null,
         1
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/application.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/application.rb": [
         1,
         null,
         1,
@@ -60,12 +60,12 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/boot.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/environments/test.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/environments/test.rb": [
         1,
         null,
         null,
@@ -109,7 +109,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/assets.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -122,7 +122,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/backtrace_silencers.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -131,18 +131,18 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/cookies_serializer.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/filter_parameter_logging.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/inflections.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -160,25 +160,25 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/mime_types.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/omniauth.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/omniauth.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/session_store.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/initializers/wrap_parameters.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -194,7 +194,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/config/routes.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/config/routes.rb": [
         1,
         1,
         1,
@@ -211,7 +211,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/resources/api/v1/user_resource.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/resources/api/v1/user_resource.rb": [
         1,
         1,
         1,
@@ -220,24 +220,24 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/resources/base_resource.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/resources/base_resource.rb": [
         1,
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/helpers/application_helper.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/helpers/pages_helper.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/helpers/pages_helper.rb": [
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/helpers/users_helper.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/support/database_cleaner.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/support/database_cleaner.rb": [
         1,
         1,
         null,
@@ -273,7 +273,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/support/omniauth.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/support/omniauth.rb": [
         1,
         1,
         2,
@@ -290,7 +290,7 @@
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/support/shoulda_matchers.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/support/shoulda_matchers.rb": [
         1,
         1,
         1,
@@ -298,33 +298,33 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/support/vcr.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/support/vcr.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/api/v1/users_controller.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/api/v1/users_controller.rb": [
         1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/api/api_controller.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/application_controller.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/api/api_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/application_controller.rb": [
         1,
         1,
         1,
@@ -350,20 +350,20 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/controllers/users_controller_spec.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/controllers/users_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/users_controller.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/users_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/features/user_logs_in_with_omniauth_spec.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/features/user_logs_in_with_omniauth_spec.rb": [
         1,
         null,
         1,
@@ -393,51 +393,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/models/authorization_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        null
-      ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/models/authorization.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/models/role_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/models/role.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/models/user_role_spec.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/models/authorization_spec.rb": [
         1,
         null,
         1,
@@ -445,13 +401,57 @@
         2,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/models/user_role.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/models/authorization.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/models/role_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/models/role.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/models/user_role_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/models/user_role.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/models/user_spec.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -463,7 +463,7 @@
         2,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/models/user.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/models/user.rb": [
         1,
         1,
         1,
@@ -495,13 +495,13 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/spec/fabricators/user_fabricator.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/spec/fabricators/user_fabricator.rb": [
         1,
         2,
         2,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/services/permission.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/services/permission.rb": [
         1,
         1,
         null,
@@ -552,13 +552,13 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/pages_controller.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/pages_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/controllers/sessions_controller.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/controllers/sessions_controller.rb": [
         1,
         1,
         2,
@@ -574,7 +574,7 @@
         null,
         null
       ],
-      "/Users/nweiland/Dropbox/Turing/projects/levelup/app/services/facebook_service.rb": [
+      "/Users/weilandia/Dropbox/dev/projects/levelup/app/services/facebook_service.rb": [
         1,
         1,
         1,
@@ -589,6 +589,6 @@
         null
       ]
     },
-    "timestamp": 1465765217
+    "timestamp": 1465970746
   }
 }
